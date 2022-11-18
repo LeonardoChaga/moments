@@ -1,0 +1,88 @@
+.moment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+   
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 600px;
+    margin-bottom: 0 auto 1em;
+    margin-right: 50em;
+}
+
+.about-moment, .actions {
+    padding-bottom: 1em;
+    padding: 1.2em
+}
+
+.about-moment {
+    margin-bottom: 40em;
+    margin-top: -30em;
+    margin-left: 50em;
+    position: static;
+    padding-top: 5em;
+}
+.actions {
+    background-color: rgb(241, 183, 35);
+    margin-bottom: 0 auto 1em;
+    margin-right: 50em;
+    width: 20%;
+    position: absolute;
+    margin-top: 30em;
+
+
+}
+
+.comments {
+    position: absolute;
+    margin-top: -15em;
+    padding: 1.5em 0;
+    margin-left: 50em;
+}
+
+.edit-btn,.remove-btn {
+    border: 1px solid #EFEFEF;
+    padding: .4em 1em;
+    font-size: 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.4s;
+};
+
+button fa-icon, a fa-icon {
+    margin-right: 0.2em;
+}
+
+.comment-form {
+   margin-bottom: 3em; 
+   position: absolute;
+   
+}
+
+.comment-form h3 {
+    margin-top: -30em;
+    margin-left: 43em;
+
+}
+
+.comment-form form {
+    margin-top: 50em;
+    text-align: left;
+    max-width: 300px;
+    margin-left: 50.5em;
+
+}
+
+.autor span {
+    font-weight: bold;
+}

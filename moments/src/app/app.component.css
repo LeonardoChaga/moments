@@ -1,0 +1,4 @@
+.container {
+    min-height: 65vh; /* 65% da tela será pertencente ao conteúdo. O resto, será o rodapé */
+    margin-top: 1em;
+}

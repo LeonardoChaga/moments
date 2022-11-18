@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #777;
+    background-color: #210070;
+}
+
+.brand,
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img {
+    width: 100px;
+    margin-right: 0.6em;
+}
+
+.brand h2 {
+    transition: .4s;
+}
+
+#moments-h2{
+    color: #40e0d0;
+
+}
+
+#moments-h2:hover {
+    color: rgb(241, 183, 35);
+}
+
+#home,#add,#about{
+    color:#40e0d0 ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#home:hover,#add:hover,#about:hover{
+    color:rgb(241, 183, 35) ;
+}
+
+.links li {
+    margin-right: 1em;
+    list-style: none;
+
+}
+
+.links a {
+    padding: 0.1em 0.3em;
+}
